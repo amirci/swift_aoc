@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DCB9FE81C50824B0C2E25D8 /* Pods_aocTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8AE43E15618F2C86B3D77D7 /* Pods_aocTests.framework */; };
+		74892486599DCD0D56EDE181 /* Pods_aoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92DD9934536515AC8F6A9BE7 /* Pods_aoc.framework */; };
+		OBJ_209 /* day1.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* day1.swift */; };
+		OBJ_223 /* day1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* day1Tests.swift */; };
+		OBJ_228 /* aoc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_107 /* aoc.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFC354FB1F035F5C007417A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_203;
+			remoteInfo = aoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C31C9CE73FEB5E24A1B1CE7 /* Pods-aocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aocTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aocTests/Pods-aocTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DB54E54C92F4C0394C7A216 /* Pods-aoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aoc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aoc/Pods-aoc.debug.xcconfig"; sourceTree = "<group>"; };
+		7ED1D12B140EC1C53A9D6E7D /* Pods-aoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aoc.release.xcconfig"; path = "Pods/Target Support Files/Pods-aoc/Pods-aoc.release.xcconfig"; sourceTree = "<group>"; };
+		92DD9934536515AC8F6A9BE7 /* Pods_aoc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aoc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF460C281F04246700D6C969 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CFE248B41F0429F6009D20DB /* day1.input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day1.input.txt; sourceTree = "<group>"; };
+		CFE248B51F042A90009D20DB /* day1_input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day1_input.txt; sourceTree = "<group>"; };
+		DA415AF38619B162522F2F28 /* Pods-aocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aocTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-aocTests/Pods-aocTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8AE43E15618F2C86B3D77D7 /* Pods_aocTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aocTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_107 /* aoc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = aoc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_108 /* aocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = aocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_13 /* day1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1Tests.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* day1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day1.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				74892486599DCD0D56EDE181 /* Pods_aoc.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_228 /* aoc.framework in Frameworks */,
+				1DCB9FE81C50824B0C2E25D8 /* Pods_aocTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0999818F7FFB34C179D245C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92DD9934536515AC8F6A9BE7 /* Pods_aoc.framework */,
+				F8AE43E15618F2C86B3D77D7 /* Pods_aocTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1570EA52B9D9887D4F59A32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DB54E54C92F4C0394C7A216 /* Pods-aoc.debug.xcconfig */,
+				7ED1D12B140EC1C53A9D6E7D /* Pods-aoc.release.xcconfig */,
+				1C31C9CE73FEB5E24A1B1CE7 /* Pods-aocTests.debug.xcconfig */,
+				DA415AF38619B162522F2F28 /* Pods-aocTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* aocTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_107 /* aoc.framework */,
+				OBJ_108 /* aocTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_11 /* aocTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE248B51F042A90009D20DB /* day1_input.txt */,
+				CFE248B41F0429F6009D20DB /* day1.input.txt */,
+				OBJ_13 /* day1Tests.swift */,
+			);
+			name = aocTests;
+			path = Tests/aocTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_14 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				CF460C281F04246700D6C969 /* Podfile */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* Dependencies */,
+				OBJ_103 /* Products */,
+				D1570EA52B9D9887D4F59A32 /* Pods */,
+				0999818F7FFB34C179D245C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* day1.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		OBJ_203 /* aoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_204 /* Build configuration list for PBXNativeTarget "aoc" */;
+			buildPhases = (
+				8874C31AEBF637D70FCA5AA8 /* [CP] Check Pods Manifest.lock */,
+				OBJ_207 /* Sources */,
+				OBJ_210 /* Frameworks */,
+				136D8C3B3ECFAC1B10792699 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aoc;
+			productName = aoc;
+			productReference = OBJ_107 /* aoc.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_217 /* aocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_218 /* Build configuration list for PBXNativeTarget "aocTests" */;
+			buildPhases = (
+				27CFFAFC171E026D9377D603 /* [CP] Check Pods Manifest.lock */,
+				OBJ_221 /* Sources */,
+				OBJ_224 /* Frameworks */,
+				1DE5C2B74BB74AB6BD57BC88 /* [CP] Embed Pods Frameworks */,
+				79C6D1DF6797392F1DD23788 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_232 /* PBXTargetDependency */,
+			);
+			name = aocTests;
+			productName = aocTests;
+			productReference = OBJ_108 /* aocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "aoc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				OBJ_203 /* aoc */,
+				OBJ_217 /* aocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		136D8C3B3ECFAC1B10792699 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aoc/Pods-aoc-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DE5C2B74BB74AB6BD57BC88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aocTests/Pods-aocTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27CFFAFC171E026D9377D603 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79C6D1DF6797392F1DD23788 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aocTests/Pods-aocTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8874C31AEBF637D70FCA5AA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_207 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_209 /* day1.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_223 /* day1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_203 /* aoc */;
+			targetProxy = CFC354FB1F035F5C007417A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DB54E54C92F4C0394C7A216 /* Pods-aoc.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Quick.git-2733117082000052066/Sources/QuickSpecBase/include",
+					"$(SRCROOT)/aoc.xcodeproj/GeneratedModuleMap/QuickSpecBase",
+				);
+				INFOPLIST_FILE = aoc.xcodeproj/aoc_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/aoc.xcodeproj/GeneratedModuleMap/QuickSpecBase/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = aoc;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = aoc;
+			};
+			name = Debug;
+		};
+		OBJ_206 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ED1D12B140EC1C53A9D6E7D /* Pods-aoc.release.xcconfig */;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Quick.git-2733117082000052066/Sources/QuickSpecBase/include",
+					"$(SRCROOT)/aoc.xcodeproj/GeneratedModuleMap/QuickSpecBase",
+				);
+				INFOPLIST_FILE = aoc.xcodeproj/aoc_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/aoc.xcodeproj/GeneratedModuleMap/QuickSpecBase/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = aoc;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = aoc;
+			};
+			name = Release;
+		};
+		OBJ_219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C31C9CE73FEB5E24A1B1CE7 /* Pods-aocTests.debug.xcconfig */;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Quick.git-2733117082000052066/Sources/QuickSpecBase/include",
+					"$(SRCROOT)/aoc.xcodeproj/GeneratedModuleMap/QuickSpecBase",
+				);
+				INFOPLIST_FILE = aoc.xcodeproj/aocTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/aoc.xcodeproj/GeneratedModuleMap/QuickSpecBase/module.modulemap";
+				TARGET_NAME = aocTests;
+			};
+			name = Debug;
+		};
+		OBJ_220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA415AF38619B162522F2F28 /* Pods-aocTests.release.xcconfig */;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Quick.git-2733117082000052066/Sources/QuickSpecBase/include",
+					"$(SRCROOT)/aoc.xcodeproj/GeneratedModuleMap/QuickSpecBase",
+				);
+				INFOPLIST_FILE = aoc.xcodeproj/aocTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_TEMP_DIR)/SymlinkLibs/";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/aoc.xcodeproj/GeneratedModuleMap/QuickSpecBase/module.modulemap";
+				TARGET_NAME = aocTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_2 /* Build configuration list for PBXProject "aoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_204 /* Build configuration list for PBXNativeTarget "aoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_205 /* Debug */,
+				OBJ_206 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_218 /* Build configuration list for PBXNativeTarget "aocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_219 /* Debug */,
+				OBJ_220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
